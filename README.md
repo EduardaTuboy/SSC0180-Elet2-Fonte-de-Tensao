@@ -1,17 +1,14 @@
 # Trabalho 1 - Fonte de tensão variável
-
 Projeto realizado para a disciplina Eletrônica para Computação [SSC0180], ministrado pelo docente [Eduardo Vale Simões](https://gitlab.com/simoesusp), durante o primeiro semestre do curso de Bacharelado em Ciências de Computação, na USP campus São Carlos.
 
 ## Integrantes do Grupo 8
-
-* Eduarda tuboy Nardin | nº USP 13732495
+* [Eduarda tuboy Nardin](https://github.com/EduardaTNardin) | nº USP 13732495
 * Gabriel Barbosa dos Santos | nº USP 
 * Guilherme Antonio Costa Bandeira | nº USP
 * Rafael Brazolin Alvez Mansur| nº USP
 * Renan Parpinelli Scarpin| nº USP
 
 ## Objetivo
-
 Montar em uma *protoboard* um circuito que recebe como entrada uma corrente alternada de 127V e retorna como saída uma corrente contínua ajustável entre 3V a 12V, com capacidade de 100mA de corrente.
 
 ## Diagrama de fonte no Falstad
@@ -19,7 +16,6 @@ Montar em uma *protoboard* um circuito que recebe como entrada uma corrente alte
 Link do circuito no Falstad [aqui](https://tinyurl.com/2mkt75e9).
 
 ## Escolha dos Componentes
-
 Todos os componentes, menos o cabo conectado ao transformador, foram comprados na loja “Ca And Ma Componentes Eletrônicos”, localizada em São Carlos.
 
 Quantidade | Componente | Especificações | Preço
@@ -38,14 +34,16 @@ Quantidade | Componente | Especificações | Preço
 1 | Protoboard | BB-01 400P Sem base tower | R$ 20,40
 Total | | | R$ 89,36
 
-# Projeto no Software Eagle
+## Projeto no Software Eagle
 
-# Cálculos
+## Cálculos e Montagem
 
-# Foto da fonte
+### Esquema do diagrama da fonte
+![image](https://github.com/EduardaTNardin/SSC0180-Elet2-Fonte-de-Tensao/assets/128496419/bbf88920-d824-407e-98b8-3a7f5e0b5204)
 
-# Vídeo da fonte funcionando
 
+
+## Vídeo da fonte funcionando
 Vídeo do funcionamento da fonte nesse [link](https://drive.google.com/file/d/1ItndYaJXKqj53ECNaNRtKMORyY3nLMsF/view?usp=sharing)
 
 
