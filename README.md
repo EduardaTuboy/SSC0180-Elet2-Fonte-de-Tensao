@@ -30,7 +30,7 @@ Quantidade | Componente | Especificações | Preço Unidade
 2 | Resistor 1K | CR25 Carvão LGE | R$ 0,14
 1 | Resistor 2.7K | CR25 Carvão | R$ 0,07
 1 | Resistor 6.8K | CR25 Carvão Rohs | R$ 0,07
-10 | Jumpers | Femea x Macho | R$ 7,00
+10 | Jumpers | Femea x Macho | R$ 0,70
 1 | Protoboard | BB-01 400P Sem base tower | R$ 20,40
 Total | | | R$ 89,36
 
