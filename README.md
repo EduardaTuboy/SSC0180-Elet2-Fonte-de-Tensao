@@ -18,7 +18,7 @@ Link do circuito no Falstad [aqui](https://tinyurl.com/2mkt75e9).
 ## Escolha dos Componentes
 Todos os componentes, menos o cabo conectado ao transformador, foram comprados na loja “Ca And Ma Componentes Eletrônicos”, localizada em São Carlos.
 
-Quantidade | Componente | Especificações | Preço
+Quantidade | Componente | Especificações | Preço Unidade
 --- | --- | --- | ---
 1 | Transformador | Trafo Bivolt 18+18v 500mA | R$ 41,90
 1 | Ponte Retificadora | KBP206 2A 600V Tower | R$ 3,80
