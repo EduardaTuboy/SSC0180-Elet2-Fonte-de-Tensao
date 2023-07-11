@@ -3,10 +3,10 @@ Projeto realizado para a disciplina Eletrônica para Computação [SSC0180], min
 
 ## Integrantes do Grupo 8
 * [Eduarda tuboy Nardin](https://github.com/EduardaTNardin) | nº USP 13732495
-* [Gabriel Barbosa dos Santos](https://github.com/GotemBarbosa) | nº USP 
+* [Gabriel Barbosa dos Santos](https://github.com/GotemBarbosa) | nº USP 14613991
 * Guilherme Antonio Costa Bandeira | nº USP
 * [Rafael Brazolin Alvez Mansur](https://github.com/RafaelMansurUsp)| nº USP
-* Renan Parpinelli Scarpin| nº USP
+* Renan Parpinelli Scarpin| nº USP 14712188
 
 ## Objetivo
 Montar em uma *protoboard* um circuito que recebe como entrada uma corrente alternada de 127V e retorna como saída uma corrente contínua ajustável entre 3V a 12V, com capacidade de 100mA de corrente.
