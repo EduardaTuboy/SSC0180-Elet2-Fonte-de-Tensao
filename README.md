@@ -6,7 +6,7 @@ Projeto realizado para a disciplina Eletrônica para Computação [SSC0180], min
 * [Gabriel Barbosa dos Santos](https://github.com/GotemBarbosa) | nº USP 14613991
 * [Guilherme Antonio Costa Bandeira](https://github.com/Guilherme-Bandeira) | nº USP 14575620
 * [Rafael Brazolin Alvez Mansur](https://github.com/RafaelMansurUsp)| nº USP
-* Renan Parpinelli Scarpin| nº USP 14712188
+* [Renan Parpinelli Scarpin](https://github.com/RenanScarpin)| nº USP 14712188
 
 ## Objetivo
 Montar em uma *protoboard* um circuito que recebe como entrada uma corrente alternada de 127V e retorna como saída uma corrente contínua ajustável entre 3V a 12V, com capacidade de 100mA de corrente.
