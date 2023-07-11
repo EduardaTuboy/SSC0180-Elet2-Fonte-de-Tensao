@@ -4,7 +4,7 @@ Projeto realizado para a disciplina Eletrônica para Computação [SSC0180], min
 ## Integrantes do Grupo 8
 * [Eduarda tuboy Nardin](https://github.com/EduardaTNardin) | nº USP 13732495
 * [Gabriel Barbosa dos Santos](https://github.com/GotemBarbosa) | nº USP 14613991
-* Guilherme Antonio Costa Bandeira | nº USP 14575620
+* [Guilherme Antonio Costa Bandeira](https://github.com/Guilherme-Bandeira) | nº USP 14575620
 * [Rafael Brazolin Alvez Mansur](https://github.com/RafaelMansurUsp)| nº USP
 * Renan Parpinelli Scarpin| nº USP 14712188
 
