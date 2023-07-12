@@ -46,9 +46,9 @@ $\frac{127}{N_p}=\frac{18}{N_s}$
 $\frac{N_s}{N_p}=\frac{18}{127} = 7,05$
 
 Depois, é calculada a tensão de pico do circuito, que é a voltagem que sai do transformador vezes raiz de dois subtraindo duas vezes o valor 0,7V, que é a quantidade de tensão dissipada por cada diodo, e já que em cada ciclo a corrente passa por 2 diodos, é necessário multiplicar 0,7V por dois:
-$V_máx = V_transformador \cdot \sqrt{2}-(2 \cdot 0,7V)$
-$V_máx = 18 \cdot \sqrt{2}-(1,4)$
-$V_máx = 24,06V$
+$V_m_á_x = V_t_r_a_n_s_f_o_r_m_a_d_o_r \cdot \sqrt{2}-(2 \cdot 0,7V)$
+$V_m_á_x = 18 \cdot \sqrt{2}-(1,4)$
+$V_m_á_x = 24,06V$
 
 
 ### Esquema do diagrama da fonte
