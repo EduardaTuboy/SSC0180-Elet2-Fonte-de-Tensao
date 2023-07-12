@@ -70,9 +70,23 @@ $C = Io \cdot (2 \cdot f \cdot V_s \cdot ripple)^-1$
 
 Para a obtenção da corrente, são somadas a corrente no led, no diodo zener e na saída do carregador, todas obtidas pela primeira lei de ohm.
 
-$Io = I_led + I_zener + I_c$
+$Io = I_{led} + I_{zener} + I_c$
 
-$I_led = \frac{24,06V - 3,1V}{6800\Omega}=0,0031A=3,1mA$
+$I_{led} = \frac{24,06V - 3,1V}{6800\Omega}=0,0031A=3,1mA$
+
+$I_zener = \frac{24,06V - 13V}{2700\Omega}=0,0041A =4,1mA$
+
+$I_c = pela especificação do problema = 100mA $
+
+$Io = 3,1mA + 4,1mA + 100mA = 107,2mA$
+
+Voltando á fórmula do capacitor:
+
+$C = Io \cdot (2 \cdot f \cdot V_s \cdot ripple)^-1$
+
+$C = 0,1072 \cdot (120 \cdot 24,06 \cdot 0,06)^-1$
+
+$C = $0,0006188233F=618,82\muF
 
 ### Esquema do diagrama da fonte
 ![image](https://github.com/EduardaTNardin/SSC0180-Elet2-Fonte-de-Tensao/assets/128496419/bbf88920-d824-407e-98b8-3a7f5e0b5204)
