@@ -47,11 +47,19 @@ $\frac{N_s}{N_p}=\frac{18}{127} = 7,05$
 
 Depois, é calculada a tensão de pico do circuito, que é a voltagem que sai do transformador vezes raiz de dois subtraindo duas vezes o valor 0,7V, que é a quantidade de tensão dissipada por cada diodo, e já que em cada ciclo a corrente passa por 2 diodos, é necessário multiplicar 0,7V por dois:
 
-$V_{máx} = V_{transformador} \cdot \sqrt{2}-(2 \cdot 0,7V)$
+$V_{máx} = V_{transformador} \cdot \sqrt{2}-(2 \cdot 0,7 V)$
 
 $V_{máx} = 18 \cdot \sqrt{2}-(1,4)$
 
-$V_{máx} = 24,06V$
+$V_{máx} = 24,06 V$
+
+Em seguida, inicia-se a montagem e cálculo do circuito pelo diodo zener, visto que tal componente requer o mínimo de valor de corrente que passa por ele, caso contrário ele pode queimar, e também que passe uma tensão maior que 13V, para que o zener de 13V consiga ligar e fixar a corrente passada por ele em 13V. Assim, com essas condições, foi utilizado o Falstad para ajustar o resistor acima do diodo zener de forma que atinja um valor de resistor comercial e as especificações, sendo este valor 2,7K \Omega.
+
+Após isso, foi calculado o resistor logo abaixo do potenciômetro, sendo este necessário para regular o range do potenciômetro entre 3 V e 12 V, visto que sem tal resistor o range vai de 0 V até 13 V.  Testando no Falstad, chegou-se em 2,2 K\Omega, porém devido a problemas de mal-contato ocasionados pelos grandes pinos do potenciômetro, foi colocado dois resistores de 1 K\Omega em série para gerar 2 K\Omega de resistência a fim da fonte entregar 3V quando estiver no mínimo do potenciômetro.
+
+Para calcular o resistor do LED, foi ajustado através do Falstad o valor do resistor que faz com que passe o mínimo de corrente possível e ainda faça com que o LED funcione, sendo esse valor 3 mA. Logo, foi concluído que o resistor precisa ser do valor de 6,8 K\Omega.
+
+Para calcular a capacitância do capacitor, foi utilizado a seguinte fórmula:
 
 
 ### Esquema do diagrama da fonte
