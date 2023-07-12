@@ -37,7 +37,8 @@ Total | | | R$ 89,36
 ## Projeto no Software Eagle
 
 ## Cálculos e Montagem
-De início, é necessário saber a razão Ns / Np, utilizado nas definições do Falstad, sendo Ns número de espiras do enrolamento da bobina secundária e Np número de espiras do enrolamento da bobina primária. Essa razão se dá pela relação: 
+De início, é necessário saber a razão Ns / Np, utilizado nas definições do Falstad, sendo Ns número de espiras do enrolamento da bobina secundária e Np número de espiras do enrolamento da bobina primária. Essa razão se dá pela relação:
+
 $\frac{V_p}{N_p}=\frac{V_s}{N_s}$
 $\frac{127}{N_p}=\frac{18}{N_s}$
 $\frac{N_s}{N_p}=\frac{18}{127}=7,05$
