@@ -76,7 +76,9 @@ $I_{led} = \frac{24,06V - 3,1V}{6800\Omega}=0,0031A=3,1mA$
 
 $I_{zener} = \frac{24,06V - 13V}{2700\Omega}=0,0041A =4,1mA$
 
-$I_c =$ pela especificação do problema $= 100mA $
+Pela especificação do problema:
+
+$I_c = 100mA$
 
 $Io = 3,1mA + 4,1mA + 100mA = 107,2mA$
 
