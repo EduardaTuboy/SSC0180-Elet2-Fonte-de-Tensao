@@ -61,7 +61,7 @@ Para calcular o resistor do LED, foi ajustado através do Falstad o valor do res
 
 Para calcular a capacitância do capacitor, foi utilizado a seguinte fórmula:
 
-$C = Io \cdot (2 \cdot f \cdot V_s \cdot ripple)^-1$
+$C = Io \cdot (2 \cdot f \cdot V_s \cdot ripple)^{-1}$
 
 * Io - Corrente de saída do capacitor
 * V_s - Tensão de pico
@@ -74,9 +74,9 @@ $Io = I_{led} + I_{zener} + I_c$
 
 $I_{led} = \frac{24,06V - 3,1V}{6800\Omega}=0,0031A=3,1mA$
 
-$I_zener = \frac{24,06V - 13V}{2700\Omega}=0,0041A =4,1mA$
+$I_{zener} = \frac{24,06V - 13V}{2700\Omega}=0,0041A =4,1mA$
 
-$I_c = pela especificação do problema = 100mA $
+$I_c = pela_especificação do problema = 100mA $
 
 $Io = 3,1mA + 4,1mA + 100mA = 107,2mA$
 
@@ -86,7 +86,7 @@ $C = Io \cdot (2 \cdot f \cdot V_s \cdot ripple)^-1$
 
 $C = 0,1072 \cdot (120 \cdot 24,06 \cdot 0,06)^-1$
 
-$C = $0,0006188233F=618,82\muF
+$C = $0,0006188233F=618,82 \mu F
 
 ### Esquema do diagrama da fonte
 ![image](https://github.com/EduardaTNardin/SSC0180-Elet2-Fonte-de-Tensao/assets/128496419/bbf88920-d824-407e-98b8-3a7f5e0b5204)
