@@ -88,6 +88,8 @@ $C = 0,1072 \cdot (120 \cdot 24,06 \cdot 0,06)^{-1}$
 
 $C = 0,0006188233F = 618,82\mu F$
 
+Como 618,82$\mu F$ não é um valor comercial, foi escolhido um capacitor de 680$\mu F$.
+
 ### Esquema do diagrama da fonte
 ![image](https://github.com/EduardaTNardin/SSC0180-Elet2-Fonte-de-Tensao/assets/128496419/bbf88920-d824-407e-98b8-3a7f5e0b5204)
 
