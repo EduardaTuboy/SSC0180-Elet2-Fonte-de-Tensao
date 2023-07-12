@@ -55,9 +55,9 @@ $V_{máx} = 24,06 V$
 
 Em seguida, inicia-se a montagem e cálculo do circuito pelo diodo zener, visto que tal componente requer o mínimo de valor de corrente que passa por ele, caso contrário ele pode queimar, e também que passe uma tensão maior que 13V, para que o zener de 13V consiga ligar e fixar a corrente passada por ele em 13V. Assim, com essas condições, foi utilizado o Falstad para ajustar o resistor acima do diodo zener de forma que atinja um valor de resistor comercial e as especificações, sendo este valor 2,7K \Omega.
 
-Após isso, foi calculado o resistor logo abaixo do potenciômetro, sendo este necessário para regular o range do potenciômetro entre 3 V e 12 V, visto que sem tal resistor o range vai de 0 V até 13 V.  Testando no Falstad, chegou-se em 2,2 K\Omega, porém devido a problemas de mal-contato ocasionados pelos grandes pinos do potenciômetro, foi colocado dois resistores de 1 K\Omega em série para gerar 2 K\Omega de resistência a fim da fonte entregar 3V quando estiver no mínimo do potenciômetro.
+Após isso, foi calculado o resistor logo abaixo do potenciômetro, sendo este necessário para regular o range do potenciômetro entre 3V e 12V, visto que sem tal resistor o range vai de 0V até 13V. Testando no Falstad, chegou-se em 2,2K\Omega, porém devido a problemas de mal-contato ocasionados pelos grandes pinos do potenciômetro, foi colocado dois resistores de 1K\Omega em série para gerar 2K\Omega de resistência a fim da fonte entregar 3V quando estiver no mínimo do potenciômetro.
 
-Para calcular o resistor do LED, foi ajustado através do Falstad o valor do resistor que faz com que passe o mínimo de corrente possível e ainda faça com que o LED funcione, sendo esse valor 3 mA. Logo, foi concluído que o resistor precisa ser do valor de 6,8 K\Omega.
+Para calcular o resistor do LED, foi ajustado através do Falstad o valor do resistor que faz com que passe o mínimo de corrente possível e ainda faça com que o LED funcione, sendo esse valor 3mA. Logo, foi concluído que o resistor precisa ser do valor de 6,8K\Omega.
 
 Para calcular a capacitância do capacitor, foi utilizado a seguinte fórmula:
 
