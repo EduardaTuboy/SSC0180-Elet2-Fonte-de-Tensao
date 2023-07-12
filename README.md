@@ -38,6 +38,7 @@ Total | | | R$ 89,36
 
 ## Cálculos e Montagem
 $\frac{V_p}{N_p}$
+\cdot
 
 ### Esquema do diagrama da fonte
 ![image](https://github.com/EduardaTNardin/SSC0180-Elet2-Fonte-de-Tensao/assets/128496419/bbf88920-d824-407e-98b8-3a7f5e0b5204)
