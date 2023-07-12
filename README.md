@@ -55,12 +55,24 @@ $V_{máx} = 24,06 V$
 
 Em seguida, inicia-se a montagem e cálculo do circuito pelo diodo zener, visto que tal componente requer o mínimo de valor de corrente que passa por ele, caso contrário ele pode queimar, e também que passe uma tensão maior que 13V, para que o zener de 13V consiga ligar e fixar a corrente passada por ele em 13V. Assim, com essas condições, foi utilizado o Falstad para ajustar o resistor acima do diodo zener de forma que atinja um valor de resistor comercial e as especificações, sendo este valor 2,7K $\Omega$.
 
-Após isso, foi calculado o resistor logo abaixo do potenciômetro, sendo este necessário para regular o range do potenciômetro entre 3V e 12V, visto que sem tal resistor o range vai de 0V até 13V. Testando no Falstad, chegou-se em 2,2K\Omega, porém devido a problemas de mal-contato ocasionados pelos grandes pinos do potenciômetro, foi colocado dois resistores de 1K\Omega em série para gerar 2K\Omega de resistência a fim da fonte entregar 3V quando estiver no mínimo do potenciômetro.
+Após isso, foi calculado o resistor logo abaixo do potenciômetro, sendo este necessário para regular o range do potenciômetro entre 3V e 12V, visto que sem tal resistor o range vai de 0V até 13V. Testando no Falstad, chegou-se em 2,2K $\Omega$, porém devido a problemas de mal-contato ocasionados pelos grandes pinos do potenciômetro, foi colocado dois resistores de 1K $\Omega$ em série para gerar 2K $\Omega$ de resistência a fim da fonte entregar 3V quando estiver no mínimo do potenciômetro.
 
-Para calcular o resistor do LED, foi ajustado através do Falstad o valor do resistor que faz com que passe o mínimo de corrente possível e ainda faça com que o LED funcione, sendo esse valor 3mA. Logo, foi concluído que o resistor precisa ser do valor de 6,8K\Omega.
+Para calcular o resistor do LED, foi ajustado através do Falstad o valor do resistor que faz com que passe o mínimo de corrente possível e ainda faça com que o LED funcione, sendo esse valor 3mA. Logo, foi concluído que o resistor precisa ser do valor de 6,8K $\Omega$.
 
 Para calcular a capacitância do capacitor, foi utilizado a seguinte fórmula:
 
+$C = Io \cdot (2 \cdot f \cdot V_s \cdot ripple)^-1$
+
+* Io - Corrente de saída do capacitor
+* V_s - Tensão de pico
+* Ripple - Voltagem de ripple
+* f - Frequência da fonte
+
+Para a obtenção da corrente, são somadas a corrente no led, no diodo zener e na saída do carregador, todas obtidas pela primeira lei de ohm.
+
+$Io = I_led + I_zener + I_c$
+
+$I_led = \frac{24,06V - 3,1V}{6800\Omega}=0,0031A=3,1mA$
 
 ### Esquema do diagrama da fonte
 ![image](https://github.com/EduardaTNardin/SSC0180-Elet2-Fonte-de-Tensao/assets/128496419/bbf88920-d824-407e-98b8-3a7f5e0b5204)
