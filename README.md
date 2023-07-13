@@ -35,6 +35,9 @@ Quantidade | Componente | Especificações | Preço Unidade
 Total | | | R$ 89,36
 
 ## Projeto no Software Eagle
+![e3f1a8fd-b3a2-427d-af47-c42ada7199ba](https://github.com/EduardaTNardin/SSC0180-Elet2-Fonte-de-Tensao/assets/128496419/7974ae8a-ae0b-46fe-b9e6-b48cfb4208b5)
+![a3900758-d2e7-4c53-a82a-2443fbc2e03d](https://github.com/EduardaTNardin/SSC0180-Elet2-Fonte-de-Tensao/assets/128496419/9f21efd6-c2a6-4136-8be4-d5dbbc00f591)
+
 
 ## Cálculos e Montagem
 De início, é necessário saber a razão Ns / Np, utilizado nas definições do Falstad, sendo Ns número de espiras do enrolamento da bobina secundária e Np número de espiras do enrolamento da bobina primária. Essa razão se dá pela relação:
