@@ -100,9 +100,9 @@ Como 618,82 $\mu F$ não é um valor comercial, foi escolhido um capacitor de 68
 ### Esquema do diagrama da fonte
 ![image](https://github.com/EduardaTNardin/SSC0180-Elet2-Fonte-de-Tensao/assets/128496419/bbf88920-d824-407e-98b8-3a7f5e0b5204)
 
-## Vídeo da fonte funcionando
+## Vídeo e Fotos da fonte
 Vídeo do funcionamento da fonte nesse [link](https://drive.google.com/file/d/1ItndYaJXKqj53ECNaNRtKMORyY3nLMsF/view?usp=sharing)
-
+Fotos no mesmo diretório deste README.
 
 
 
